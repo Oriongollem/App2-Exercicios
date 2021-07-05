@@ -1,0 +1,253 @@
+1)
+
+void main () {
+
+  imprimir (operadorTernário (-10));
+  
+}
+    String operadorTernario (num numero) {
+    retorno (numero> 0)
+      ? "Este número $ numero é positivo !!!"
+      : "Este número $ numero é negativo !!!";
+  }
+
+.................................................. .............
+2)
+
+void main () {
+  
+  const int primeiro_valor = 14;
+  const int segundo_valor = 10;
+  const bool e_maior = primeiro_valor> segundo_valor;
+  const bool e_menor = primeiro_valor <segundo_valor;
+  const bool sao_iguais = primeiro_valor == segundo_valor;
+  
+  
+  if (e_maior) {
+    print ("O primeiro valor é maior que o segundo");
+  } else if (sao_iguais) {
+    print ("Os numeros são iguais");
+  } else if (e_menor) {
+    print ("O primeiro valor é menor que o segundo");
+  }senão{
+    print ("O segundo valor é maior que o primero");
+  }
+
+}
+
+.................................................. ....................
+3)
+
+void main () {
+  
+  duplo a = 2;
+  duplo b = 4;
+  duplo c = 5;
+  
+  print ("Valores a serem calculados:" "" + "$ a" + "," + "$ b" + "," + "$ c");
+  
+  print ("Primeiro cálculo:" + "" + "a + b * c"); 
+  double primeiro_calculo1 = (a + b * c);
+  print ("Resultado =" + "" + "$ primeiro_calculo1");
+  
+  print ("Segundo cálculo:" + "" + "b / a * c"); 
+  segundo_calculo2 duplo = (b / a * c);
+  print ("Resultado =" + "" + "$ segundo_calculo2");
+  
+  print ("Os resultados são iguais");
+  print (primeiro_calculo1 == segundo_calculo2);
+}
+  
+
+.................................................. ...................................
+4)
+
+void main () {
+ 
+  dupla nota1 = 2,0;
+  dupla nota2 = 3,0;
+  
+  mídia dupla = (nota1 + nota2);
+  
+  if (media <6) {
+    imprimir ("Reprovado");
+  } else if (media == 6) {
+    imprimir ("Aprovado");
+  } else if (media> 6) {
+    imprimir ("Aprovado com louvor");
+  }
+   
+}
+
+.................................................. ..................................
+5)
+
+ void main () {
+ 
+  dupla nota1 = 2,0;
+  dupla nota2 = 2,0;
+  dupla nota3 = 0,0;
+  
+  mídia dupla = (nota1 + nota2 + nota3);
+  
+  if (media <6) {
+    imprimir ("Reprovado");
+  } else if (media == 7) {
+    imprimir ("Exame");
+  } else if (media == 6) {
+    imprimir ("Exame");
+  } else if (media> 7) {
+    imprimir ("Aprovado com louvor");
+  }
+   
+}
+
+.................................................. ...........................
+6)
+
+void main () {
+ 
+  dupla nota1 = 0,0;
+  dupla nota2 = 0,6;
+  dupla nota3 = 9,0;
+  dupla nota4 = 0,0;
+  
+  var conceitoA = ("Conceito A");
+  var conceitoB = ("Conceito B");
+  var conceitoC = ("conceito C");
+  var conceitoF = ("Você tirou F");
+  
+  
+  mídia dupla = (nota1 + nota2 + nota3 + nota4);
+  
+  if (media <7) {
+    print ("Reprovado!" + "" + '$ conceitoF');
+  } else if (media> = 7 && media <= 7,9) {
+    print ("Aprovado!" + "" + '$ conceitoC');
+  } else if (media> = 8 && media <= 8,9) {
+    print ("Aprovado!" + "" + '$ conceitoB');
+  } else if (media> = 9 && media <= 10) {
+    print ("Aprovado!" + "" + '$ conceitoA');
+  }
+}
+
+  
+.................................................. ...................................
+7)
+
+void main () {
+ 
+  peso duplo = 30;
+  altura dupla = 1,42;
+  
+  duplo imc = (peso / altura * altura);
+  
+  if (imc <16) {
+    imprimir ('sepultura de Magreza');
+  } else if (imc> = 16 && imc <= 17) {
+    imprimir ('Magreza moderada');
+  } else if (imc> = 17 && imc <= 18,5) {
+    imprimir ('Magreza leve');
+  } else if (imc> = 18,5 && imc <= 25) {
+    imprimir ('Saudável');
+  } else if (imc> = 25 && imc <= 30) {
+    imprimir ('Sobrebeso');
+  } else if (imc> = 30 && imc <= 35) {
+    imprimir ('Obesidade grau I');
+  } else if (imc> = 35 && imc <= 40) {
+    imprimir ('Obesidade grau II (Severa)');
+  } else if (imc> = 40) {
+    imprimir ('Obesidade grau III (Mórbida)');
+  }
+}
+
+.................................................. ..........................
+8)
+
+void main () {
+  
+  var saldo_da_conta = 600;
+  var saque = 800;
+  
+  var calculo = (saldo_da_conta - saque);
+  var resultado1 = (saldo_da_conta> saque);
+  var resultado2 = (saldo_da_conta <saque);
+  var resultado3 = (saldo_da_conta == saque);
+  
+  
+   if (resultado1) {
+    print ("Saque efetuado com sucesso!" + "" + "Agora você possui somente:" + "" + "$ calculo");
+  } mais se (resultado2) {
+    print ("Saldo indisponivel!" + "" + "Você possui apenas:" + "" + "$ saldo_da_conta");
+  } mais se (resultado3) {
+    print ("Saque efetuado com sucesso!" + "" + "Agora você possui somente:" + "" + "$ calculo");
+  }
+  
+} 
+
+.................................................. .................................................. ......
+9)
+
+ void main () {
+  
+  var idade = 22;
+  
+  se (idade> = 0 && idade <= 12) {
+    imprimir ('Categoria criança');
+  } else if (idade> = 13 && idade <= 21) {
+    imprimir ('Categoria Jovem');
+  } else if (idade> = 22 && idade <= 59) {
+    imprimir ('Categoria Adulta');
+  } else if (idade> 60) {
+    print ('Categoria Terceira idade');
+  }
+  
+} 
+
+.................................................. .................................................. ..
+10)
+
+void main () {
+  
+  var peso = 70;
+  
+  if (peso <60) {
+    imprimir ('Tamanho P');
+  } else if (peso> = 61 && peso <= 74) {
+    imprimir ('Tamanho M');
+  } else if (peso> = 75 && peso <= 85) {
+    imprimir ('Tamanho G');
+  } else if (peso> 86) {
+    imprimir ('Tamanho GG');
+  }
+  
+} 
+
+
+.................................................. .................................................. ..
+11)
+
+void main () {
+   
+  var salario = 2000;
+  var acrescimo = 0,4;
+  var dias_ano = 360;
+  var anos_de_trabalho = 0;
+  var meses_trabalhando = 5;
+  
+  var calculo = (anos_de_trabalho * dias_ano);
+  var conta2 = (calculo> = 360);
+  var conta3 = (anos_de_trabalho <360);
+  var calculo2 = (meses_trabalhando * dias_ano);
+  var conta4 = (calculo2 <360);
+  
+  var total = (salario + acrescimo);
+  var junto = (salario * 1.2);
+ 
+  if (conta2) {
+    print ("Você ganhou um acrescimo seu salário é de:" + "" + "$ junto");
+  } else if (conta3) {
+    imprimir ("Você não ganhou acrescimo pois tem menos de 1 ano de empresa");
+  }
+  
+ }
